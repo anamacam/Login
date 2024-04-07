@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de registro</h2>
+
+      <!-- Inicio del formulario -->
+    
+    <form action="registro.php" method="post">
+
+          <!-- Campos del formulario -->
+    Nombre:
+   <input type="text" name="nombres" id="" required><br>
+    Apellidos:
+    <input type="text" name="apellidos" id=""><br>
+    Email:
+    <input type="email" name="email" id=""><br>
+    Contraseña:
+    <input type="password" name="password" id=""><br>
+    Repetir contraseña:
+    <input type="password" name="confirmarPassword" id=""><br>
+
+     <!-- Selección de género -->
+    Genero: 
+    <select name="genero" id="">
+        <option value="">Seleccione su género</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+    </select> 
+    <br>
+
+     <!-- Selección de curso de interés -->
+    Curso de interés:
+    <select id="Curso">
+        <option value="">Seleccione el curso</option>
+        <option value="Java">Java</option>
+        <option value="Sring Boot">Spring Boot</option>
+        <option value="Python">Spring Boot</option>
+        <option value="JavaScript">Laravel</option>
+        <option value="Laravel">JavaScript</option>
+        <option value="JQuery">JavaScript</option>
+        <option value="PHP">JavaScript</option>
+    </select>
+    <br>
+  <!-- Botón de envío del formulario -->
+    <button type="submit">Registrarme</button>
+
+
+    </form>
+</body>
+</html>
